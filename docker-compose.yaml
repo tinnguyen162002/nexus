@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+  nexus-prover-1:
+    image: tinnguyen1602/nexus-prover
+    container_name: nexus-prover-1
+    environment:
+      - PROVER_ID=${PROVER_ID}
+
+  nexus-prover-2:
+    image: tinnguyen1602/nexus-prover
+    container_name: nexus-prover-2
+    environment:
+      - PROVER_ID=${PROVER_ID}
+
+  nexus-prover-3:
+    image: tinnguyen1602/nexus-prover
+    container_name: nexus-prover-3
+    environment:
+      - PROVER_ID=${PROVER_ID}
